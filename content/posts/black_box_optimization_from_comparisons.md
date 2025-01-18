@@ -5,18 +5,18 @@ draft: false
 tags: ["python", "llm", "optimization"]
 ---
 
-Promting or prompt engineering is becoming the new programming paradigm for many NLP tasks. Among other things, it means specifying the prompt for a given task as well as generation parameters such as temperature, top-k or penalty-alpha. This is, in fact, an optimization task over the space of possible prompts, suitable LLMs as well as generation. Some o parameters here are discrete (e.g. top-k) and some are continuous (e.g. temperature). There are ways to directly learn prompts or to fine-tune an LLM on a given task, but this might be more costly and time-consuming compared to simply selecting a set of good enough prompt, LLM and generation parameters (80-20 rule). 
+Promting or prompt engineering is becoming the new programming paradigm for many NLP tasks. Among other things, it means specifying the prompt for a given task as well as generation parameters such as temperature, top-k or penalty-alpha. This is, in fact, an optimization task over the space of possible prompts, suitable LLMs as well as generation. Some o parameters here are discrete (e.g. top-k) and some are continuous (e.g. temperature). There are ways to directly learn prompts or to fine-tune an LLM on a given task, but this might be more costly and time-consuming compared to simply selecting a set of good enough prompt, LLM and generation parameters (80-20 rule).
 
 Back to this optimization task: For many instances, there will not be a good metric that one can automatically compute and that is very well aligned with the task at hand. For these cases, manual judgement or labeling will be needed. However, rating outputs consistently on a scale is very difficult and unpractical for many reasons. What should be easy for most humans is to express preference over one outcome versus another one.
 
-So, we need an optimization approach that doesn't act on direct function values but on comparisons given by a human, which is efficient in exploring the parameter space to make best use of human time. 
+So, we need an optimization approach that doesn't act on direct function values but on comparisons given by a human, which is efficient in exploring the parameter space to make best use of human time.
 
 After some research on the current state of the art, I'm settling with [botorch](https://botorch.org/) which implements methods for this approach. They way to use it is to imports the used libraries:
 
 ```python
 from botorch.acquisition.preference import AnalyticExpectedUtilityOfBestOption
 from botorch.models.pairwise_gp import (
-    PairwiseGP, 
+    PairwiseGP,
     PairwiseLaplaceMarginalLogLikelihood
 )
 from botorch.models.transforms.input import Normalize
@@ -43,7 +43,7 @@ def __utility(X):
 
 def compare(xx,ii,jj):
     """Costly eval function here"""
-    
+
     return [
         x[0] for x in sorted(
             [(ii,__utility(xx[ii])),(jj,__utility(xx[jj]))],
@@ -96,7 +96,7 @@ x_max_trace=[]
 
 with warnings.catch_warnings():
     for j in range(1, NUM_BATCHES + 1):
-        
+
         next_X, acq_val = optimize_acqf(
             acq_function=AnalyticExpectedUtilityOfBestOption(pref_model=model),
             bounds=bounds,
@@ -107,22 +107,22 @@ with warnings.catch_warnings():
 
         xx = np.concatenate([xx,next_X.numpy()])
         comparisons = np.concatenate([
-            comparisons, 
+            comparisons,
             np.array([compare(xx,len(xx)-2,len(xx)-1)])]
         )
-        
-        
+
+
         model = PairwiseGP(
             torch.tensor(xx),
             torch.tensor(comparisons),
             input_transform=Normalize(d=xx.shape[-1]),
-        )        
-        
-        
+        )
+
+
         i_x_max = int(model.utility.argmax())
         x_max = model.datapoints[i_x_max].tolist()
         x_max_trace.append(x_max)
-        
+
         if j%2==0:
             print(
                 f"j={j:02}: {','.join([f'{j:.3}' for j in x_max])} "
@@ -202,11 +202,11 @@ for ii,(ci,cj) in enumerate(comparisons.tolist()):
         ay=ay,
         arrowhead=2,
     )
-    
+
 fig.show()
 ```
 
 {{< load-plotly >}}
-{{< plotly json="https://hollstein.github.io/gelerntes/optimization.json" height="400px" >}}
+{{< plotly json="https://hollstein.github.io/blog/optimization.json" height="400px" >}}
 
 We see that the algorithm picks comparison points to update the expected optimum point in parameter space in a quite efficient way.
