@@ -1,8 +1,11 @@
 theme: "PaperMod"
-baseURL: "https://hollstein.github.io/blog/"
+baseURL: "https://hollstein.github.io/"
 languageCode: "en-us"
 title: "blog"
 canonifyURLs: true
+author: "André Hollstein"
+showToc: true
+TocOpen: true
 outputs:
   home:
     - HTML
