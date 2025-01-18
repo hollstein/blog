@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mac on blog</title>
-    <link>http://example.org/tags/mac/</link>
+    <link>http://localhost:1313/blog/tags/mac/</link>
     <description>Recent content in Mac on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 May 2023 18:54:05 +0200</lastBuildDate>
-    <atom:link href="http://example.org/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Managing disk space on Mac</title>
-      <link>http://example.org/posts/managing_disk_space_on_mac/</link>
+      <link>http://localhost:1313/blog/posts/managing_disk_space_on_mac/</link>
       <pubDate>Mon, 08 May 2023 18:54:05 +0200</pubDate>
-      <guid>http://example.org/posts/managing_disk_space_on_mac/</guid>
+      <guid>http://localhost:1313/blog/posts/managing_disk_space_on_mac/</guid>
       <description>&lt;p&gt;Developing date science use cases on a Mac with 256GB disk space is fun compared to doing this on Windows, but the small disk of my Mac can make things challenging. In case the disk is full again:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;docker system prune --all&lt;/code&gt;, removes all thing&amp;rsquo;s docker, also everything cached, so initial build times are a price to pay&lt;/li&gt;

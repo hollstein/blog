@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on blog</title>
-    <link>http://example.org/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Jun 2023 10:27:55 +0200</lastBuildDate>
-    <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Llm</title>
-      <link>http://example.org/tags/llm/</link>
+      <link>http://localhost:1313/blog/tags/llm/</link>
       <pubDate>Wed, 14 Jun 2023 10:27:55 +0200</pubDate>
-      <guid>http://example.org/tags/llm/</guid>
+      <guid>http://localhost:1313/blog/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>http://example.org/tags/optimization/</link>
+      <link>http://localhost:1313/blog/tags/optimization/</link>
       <pubDate>Wed, 14 Jun 2023 10:27:55 +0200</pubDate>
-      <guid>http://example.org/tags/optimization/</guid>
+      <guid>http://localhost:1313/blog/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://example.org/tags/python/</link>
+      <link>http://localhost:1313/blog/tags/python/</link>
       <pubDate>Wed, 14 Jun 2023 10:27:55 +0200</pubDate>
-      <guid>http://example.org/tags/python/</guid>
+      <guid>http://localhost:1313/blog/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssl</title>
-      <link>http://example.org/tags/ssl/</link>
+      <link>http://localhost:1313/blog/tags/ssl/</link>
       <pubDate>Sat, 03 Jun 2023 13:52:10 +0200</pubDate>
-      <guid>http://example.org/tags/ssl/</guid>
+      <guid>http://localhost:1313/blog/tags/ssl/</guid>
       <description></description>
     </item>
     <item>
       <title>Ocr</title>
-      <link>http://example.org/tags/ocr/</link>
+      <link>http://localhost:1313/blog/tags/ocr/</link>
       <pubDate>Sun, 28 May 2023 15:08:56 +0200</pubDate>
-      <guid>http://example.org/tags/ocr/</guid>
+      <guid>http://localhost:1313/blog/tags/ocr/</guid>
       <description></description>
     </item>
     <item>
       <title>Open Source</title>
-      <link>http://example.org/tags/open-source/</link>
+      <link>http://localhost:1313/blog/tags/open-source/</link>
       <pubDate>Sun, 28 May 2023 15:08:56 +0200</pubDate>
-      <guid>http://example.org/tags/open-source/</guid>
+      <guid>http://localhost:1313/blog/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://example.org/tags/docker/</link>
+      <link>http://localhost:1313/blog/tags/docker/</link>
       <pubDate>Mon, 08 May 2023 18:54:05 +0200</pubDate>
-      <guid>http://example.org/tags/docker/</guid>
+      <guid>http://localhost:1313/blog/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Mac</title>
-      <link>http://example.org/tags/mac/</link>
+      <link>http://localhost:1313/blog/tags/mac/</link>
       <pubDate>Mon, 08 May 2023 18:54:05 +0200</pubDate>
-      <guid>http://example.org/tags/mac/</guid>
+      <guid>http://localhost:1313/blog/tags/mac/</guid>
       <description></description>
     </item>
     <item>
       <title>Dash</title>
-      <link>http://example.org/tags/dash/</link>
+      <link>http://localhost:1313/blog/tags/dash/</link>
       <pubDate>Fri, 28 Apr 2023 11:47:28 +0200</pubDate>
-      <guid>http://example.org/tags/dash/</guid>
+      <guid>http://localhost:1313/blog/tags/dash/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>http://example.org/tags/books/</link>
+      <link>http://localhost:1313/blog/tags/books/</link>
       <pubDate>Thu, 27 Apr 2023 17:18:37 +0200</pubDate>
-      <guid>http://example.org/tags/books/</guid>
+      <guid>http://localhost:1313/blog/tags/books/</guid>
       <description></description>
     </item>
     <item>
       <title>Prediction</title>
-      <link>http://example.org/tags/prediction/</link>
+      <link>http://localhost:1313/blog/tags/prediction/</link>
       <pubDate>Sun, 23 Apr 2023 13:29:37 +0200</pubDate>
-      <guid>http://example.org/tags/prediction/</guid>
+      <guid>http://localhost:1313/blog/tags/prediction/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://example.org/tags/markdown/</link>
+      <link>http://localhost:1313/blog/tags/markdown/</link>
       <pubDate>Sat, 22 Apr 2023 13:22:39 +0200</pubDate>
-      <guid>http://example.org/tags/markdown/</guid>
+      <guid>http://localhost:1313/blog/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>http://example.org/tags/tools/</link>
+      <link>http://localhost:1313/blog/tags/tools/</link>
       <pubDate>Sat, 22 Apr 2023 13:22:39 +0200</pubDate>
-      <guid>http://example.org/tags/tools/</guid>
+      <guid>http://localhost:1313/blog/tags/tools/</guid>
       <description></description>
     </item>
   </channel>

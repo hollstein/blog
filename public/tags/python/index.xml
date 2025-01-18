@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on blog</title>
-    <link>http://example.org/tags/python/</link>
+    <link>http://localhost:1313/blog/tags/python/</link>
     <description>Recent content in Python on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Jun 2023 10:27:55 +0200</lastBuildDate>
-    <atom:link href="http://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing black box functions purely from A / B comparisons</title>
-      <link>http://example.org/posts/black_box_optimization_from_comparisons/</link>
+      <link>http://localhost:1313/blog/posts/black_box_optimization_from_comparisons/</link>
       <pubDate>Wed, 14 Jun 2023 10:27:55 +0200</pubDate>
-      <guid>http://example.org/posts/black_box_optimization_from_comparisons/</guid>
+      <guid>http://localhost:1313/blog/posts/black_box_optimization_from_comparisons/</guid>
       <description>&lt;p&gt;Promting or prompt engineering is becoming the new programming paradigm for many NLP tasks. Among other things, it means specifying the prompt for a given task as well as generation parameters such as temperature, top-k or penalty-alpha. This is, in fact, an optimization task over the space of possible prompts, suitable LLMs as well as generation. Some o parameters here are discrete (e.g. top-k) and some are continuous (e.g. temperature). There are ways to directly learn prompts or to fine-tune an LLM on a given task, but this might be more costly and time-consuming compared to simply selecting a set of good enough prompt, LLM and generation parameters (80-20 rule).&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSL errors and company proxies</title>
-      <link>http://example.org/posts/ssl_errors_and_company_proxies/</link>
+      <link>http://localhost:1313/blog/posts/ssl_errors_and_company_proxies/</link>
       <pubDate>Sat, 03 Jun 2023 13:52:10 +0200</pubDate>
-      <guid>http://example.org/posts/ssl_errors_and_company_proxies/</guid>
+      <guid>http://localhost:1313/blog/posts/ssl_errors_and_company_proxies/</guid>
       <description>&lt;p&gt;Developing AI / ML application behind company IT infrastructure can be challenging. When developing prototypes or quickly checking the latest models from the Huggingface hub, I&amp;rsquo;m often struck by SSL errors. Often, the only way out for the moment it to disable SSL locally for specific actions, also: Don&amp;rsquo;t do this outside of quick experiments or in production systems.&lt;/p&gt;
 &lt;p&gt;An excellent resource for dealing with these errors  is this Stack Overflow thread: &lt;a href=&#34;https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-python-requests&#34;&gt;https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-python-requests&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Which OCR to use today? (extracting text from images in power point)</title>
-      <link>http://example.org/posts/which_ocr_to_use/</link>
+      <link>http://localhost:1313/blog/posts/which_ocr_to_use/</link>
       <pubDate>Sun, 28 May 2023 15:08:56 +0200</pubDate>
-      <guid>http://example.org/posts/which_ocr_to_use/</guid>
+      <guid>http://localhost:1313/blog/posts/which_ocr_to_use/</guid>
       <description>&lt;p&gt;Recently I added these comments to my prototype text extraction code from documents:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pytesseract  &lt;span style=&#34;color:#75715e&#34;&gt;# this works really bad&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pytesseract&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pytesseract&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;tesseract_cmd &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/usr/bin/tesseract&amp;#34;&lt;/span&gt;
@@ -39,16 +39,16 @@
     </item>
     <item>
       <title>Extraxt all text from pptx files with python</title>
-      <link>http://example.org/posts/extraxt_all_text_from_pptx_files/</link>
+      <link>http://localhost:1313/blog/posts/extraxt_all_text_from_pptx_files/</link>
       <pubDate>Tue, 23 May 2023 10:59:29 +0200</pubDate>
-      <guid>http://example.org/posts/extraxt_all_text_from_pptx_files/</guid>
+      <guid>http://localhost:1313/blog/posts/extraxt_all_text_from_pptx_files/</guid>
       <description>&lt;p&gt;Enabling the features of current age open source LLMs on MS Office documents can be an efficiency game changer in many business tasks. The first step is to extract text from these documents before feeding the LLMs. The initial answer on how to do it from ChatGPT and You Chat was almost working, but there was missing text from grouped shapes. This code snipped does extract and does a little bit of cleanup:&lt;/p&gt;</description>
     </item>
     <item>
       <title>On prompting</title>
-      <link>http://example.org/posts/on_prompting/</link>
+      <link>http://localhost:1313/blog/posts/on_prompting/</link>
       <pubDate>Sat, 29 Apr 2023 16:56:41 +0200</pubDate>
-      <guid>http://example.org/posts/on_prompting/</guid>
+      <guid>http://localhost:1313/blog/posts/on_prompting/</guid>
       <description>&lt;p&gt;Prompting instruction fine-tuned LLMs allows getting NLP tasks done deemed infeasible some years ago and prompt hacking (trial and error until good enough on some examples) and prompt engineering (same as hacking but with tracking and metrics) become an interesting programming paradigm.&lt;/p&gt;
 &lt;h2 id=&#34;what-works-for-me&#34;&gt;What works for me&lt;/h2&gt;
 &lt;h3 id=&#34;models&#34;&gt;Models&lt;/h3&gt;
@@ -56,9 +56,9 @@
     </item>
     <item>
       <title>Debugging dash apps</title>
-      <link>http://example.org/posts/debugging_dash_apps/</link>
+      <link>http://localhost:1313/blog/posts/debugging_dash_apps/</link>
       <pubDate>Fri, 28 Apr 2023 11:47:28 +0200</pubDate>
-      <guid>http://example.org/posts/debugging_dash_apps/</guid>
+      <guid>http://localhost:1313/blog/posts/debugging_dash_apps/</guid>
       <description>&lt;p&gt;Debugging &lt;a href=&#34;https://dash.plotly.com/&#34;&gt;Dash apps&lt;/a&gt; can be fun and painful at the same time.&lt;/p&gt;
 &lt;p&gt;For debugging, I often litter the code with these to have the more powerful IPython available for debugging.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; embed; embed()
@@ -68,9 +68,9 @@
     </item>
     <item>
       <title>python-docx is a great library for writing MS Word files</title>
-      <link>http://example.org/posts/python_docx_is_great/</link>
+      <link>http://localhost:1313/blog/posts/python_docx_is_great/</link>
       <pubDate>Thu, 27 Apr 2023 13:25:41 +0200</pubDate>
-      <guid>http://example.org/posts/python_docx_is_great/</guid>
+      <guid>http://localhost:1313/blog/posts/python_docx_is_great/</guid>
       <description>&lt;p&gt;Today, I used the great library &lt;a href=&#34;https://python-docx.readthedocs.io/en/latest/user/install.html&#34;&gt;python-docx&lt;/a&gt; to create a rather complex report in MS Word. Why Word? It was the quickest way to get my results into the hands of colleagues from the business. I was using a not so large LLM locally on my GPU server to generate a report for decision-making around some or our relevant topics. In the mix went the remarkable &lt;a href=&#34;https://pypi.org/project/transformers/&#34;&gt;transfomrers&lt;/a&gt; library as well as &lt;a href=&#34;https://maartengr.github.io/BERTopic/index.html&#34;&gt;BERTopic&lt;/a&gt; for clustering. The library is easy to use for getting things done fast. Documentation is a bit lacking, and ChatGPT gets many questions about python-docx wrong. What is possible, but hard, to do is creating links within the document or creating a table of contents.&lt;/p&gt;</description>
     </item>
   </channel>

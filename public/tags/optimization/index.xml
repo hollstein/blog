@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Optimization on blog</title>
-    <link>http://example.org/tags/optimization/</link>
+    <link>http://localhost:1313/blog/tags/optimization/</link>
     <description>Recent content in Optimization on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Jun 2023 10:27:55 +0200</lastBuildDate>
-    <atom:link href="http://example.org/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing black box functions purely from A / B comparisons</title>
-      <link>http://example.org/posts/black_box_optimization_from_comparisons/</link>
+      <link>http://localhost:1313/blog/posts/black_box_optimization_from_comparisons/</link>
       <pubDate>Wed, 14 Jun 2023 10:27:55 +0200</pubDate>
-      <guid>http://example.org/posts/black_box_optimization_from_comparisons/</guid>
+      <guid>http://localhost:1313/blog/posts/black_box_optimization_from_comparisons/</guid>
       <description>&lt;p&gt;Promting or prompt engineering is becoming the new programming paradigm for many NLP tasks. Among other things, it means specifying the prompt for a given task as well as generation parameters such as temperature, top-k or penalty-alpha. This is, in fact, an optimization task over the space of possible prompts, suitable LLMs as well as generation. Some o parameters here are discrete (e.g. top-k) and some are continuous (e.g. temperature). There are ways to directly learn prompts or to fine-tune an LLM on a given task, but this might be more costly and time-consuming compared to simply selecting a set of good enough prompt, LLM and generation parameters (80-20 rule).&lt;/p&gt;</description>
     </item>
   </channel>

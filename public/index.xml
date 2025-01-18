@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>blog</title>
-    <link>http://example.org/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Jun 2023 10:27:55 +0200</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing black box functions purely from A / B comparisons</title>
-      <link>http://example.org/posts/black_box_optimization_from_comparisons/</link>
+      <link>http://localhost:1313/blog/posts/black_box_optimization_from_comparisons/</link>
       <pubDate>Wed, 14 Jun 2023 10:27:55 +0200</pubDate>
-      <guid>http://example.org/posts/black_box_optimization_from_comparisons/</guid>
+      <guid>http://localhost:1313/blog/posts/black_box_optimization_from_comparisons/</guid>
       <description>&lt;p&gt;Promting or prompt engineering is becoming the new programming paradigm for many NLP tasks. Among other things, it means specifying the prompt for a given task as well as generation parameters such as temperature, top-k or penalty-alpha. This is, in fact, an optimization task over the space of possible prompts, suitable LLMs as well as generation. Some o parameters here are discrete (e.g. top-k) and some are continuous (e.g. temperature). There are ways to directly learn prompts or to fine-tune an LLM on a given task, but this might be more costly and time-consuming compared to simply selecting a set of good enough prompt, LLM and generation parameters (80-20 rule).&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSL errors and company proxies</title>
-      <link>http://example.org/posts/ssl_errors_and_company_proxies/</link>
+      <link>http://localhost:1313/blog/posts/ssl_errors_and_company_proxies/</link>
       <pubDate>Sat, 03 Jun 2023 13:52:10 +0200</pubDate>
-      <guid>http://example.org/posts/ssl_errors_and_company_proxies/</guid>
+      <guid>http://localhost:1313/blog/posts/ssl_errors_and_company_proxies/</guid>
       <description>&lt;p&gt;Developing AI / ML application behind company IT infrastructure can be challenging. When developing prototypes or quickly checking the latest models from the Huggingface hub, I&amp;rsquo;m often struck by SSL errors. Often, the only way out for the moment it to disable SSL locally for specific actions, also: Don&amp;rsquo;t do this outside of quick experiments or in production systems.&lt;/p&gt;
 &lt;p&gt;An excellent resource for dealing with these errors  is this Stack Overflow thread: &lt;a href=&#34;https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-python-requests&#34;&gt;https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-python-requests&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Which OCR to use today? (extracting text from images in power point)</title>
-      <link>http://example.org/posts/which_ocr_to_use/</link>
+      <link>http://localhost:1313/blog/posts/which_ocr_to_use/</link>
       <pubDate>Sun, 28 May 2023 15:08:56 +0200</pubDate>
-      <guid>http://example.org/posts/which_ocr_to_use/</guid>
+      <guid>http://localhost:1313/blog/posts/which_ocr_to_use/</guid>
       <description>&lt;p&gt;Recently I added these comments to my prototype text extraction code from documents:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pytesseract  &lt;span style=&#34;color:#75715e&#34;&gt;# this works really bad&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pytesseract&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pytesseract&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;tesseract_cmd &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/usr/bin/tesseract&amp;#34;&lt;/span&gt;
@@ -39,16 +39,16 @@
     </item>
     <item>
       <title>Extraxt all text from pptx files with python</title>
-      <link>http://example.org/posts/extraxt_all_text_from_pptx_files/</link>
+      <link>http://localhost:1313/blog/posts/extraxt_all_text_from_pptx_files/</link>
       <pubDate>Tue, 23 May 2023 10:59:29 +0200</pubDate>
-      <guid>http://example.org/posts/extraxt_all_text_from_pptx_files/</guid>
+      <guid>http://localhost:1313/blog/posts/extraxt_all_text_from_pptx_files/</guid>
       <description>&lt;p&gt;Enabling the features of current age open source LLMs on MS Office documents can be an efficiency game changer in many business tasks. The first step is to extract text from these documents before feeding the LLMs. The initial answer on how to do it from ChatGPT and You Chat was almost working, but there was missing text from grouped shapes. This code snipped does extract and does a little bit of cleanup:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Managing disk space on Mac</title>
-      <link>http://example.org/posts/managing_disk_space_on_mac/</link>
+      <link>http://localhost:1313/blog/posts/managing_disk_space_on_mac/</link>
       <pubDate>Mon, 08 May 2023 18:54:05 +0200</pubDate>
-      <guid>http://example.org/posts/managing_disk_space_on_mac/</guid>
+      <guid>http://localhost:1313/blog/posts/managing_disk_space_on_mac/</guid>
       <description>&lt;p&gt;Developing date science use cases on a Mac with 256GB disk space is fun compared to doing this on Windows, but the small disk of my Mac can make things challenging. In case the disk is full again:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;docker system prune --all&lt;/code&gt;, removes all thing&amp;rsquo;s docker, also everything cached, so initial build times are a price to pay&lt;/li&gt;
@@ -60,16 +60,16 @@
     </item>
     <item>
       <title>SSL issues when baking LLMs into docker images</title>
-      <link>http://example.org/posts/ssl_issues_docker/</link>
+      <link>http://localhost:1313/blog/posts/ssl_issues_docker/</link>
       <pubDate>Mon, 08 May 2023 18:40:20 +0200</pubDate>
-      <guid>http://example.org/posts/ssl_issues_docker/</guid>
+      <guid>http://localhost:1313/blog/posts/ssl_issues_docker/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m building some docker images to deploy a data science use-case to AWS as ECS task. One trick to reduce startup-time and external dependencies is to include all needed models into the image. This increases the image size but decreases the time spent getting the models from an external dependency and is safeguarding the service for external resources becoming unavailable. In this project, I can&amp;rsquo;t rely on some other internal way of fetching the models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On prompting</title>
-      <link>http://example.org/posts/on_prompting/</link>
+      <link>http://localhost:1313/blog/posts/on_prompting/</link>
       <pubDate>Sat, 29 Apr 2023 16:56:41 +0200</pubDate>
-      <guid>http://example.org/posts/on_prompting/</guid>
+      <guid>http://localhost:1313/blog/posts/on_prompting/</guid>
       <description>&lt;p&gt;Prompting instruction fine-tuned LLMs allows getting NLP tasks done deemed infeasible some years ago and prompt hacking (trial and error until good enough on some examples) and prompt engineering (same as hacking but with tracking and metrics) become an interesting programming paradigm.&lt;/p&gt;
 &lt;h2 id=&#34;what-works-for-me&#34;&gt;What works for me&lt;/h2&gt;
 &lt;h3 id=&#34;models&#34;&gt;Models&lt;/h3&gt;
@@ -77,9 +77,9 @@
     </item>
     <item>
       <title>Debugging dash apps</title>
-      <link>http://example.org/posts/debugging_dash_apps/</link>
+      <link>http://localhost:1313/blog/posts/debugging_dash_apps/</link>
       <pubDate>Fri, 28 Apr 2023 11:47:28 +0200</pubDate>
-      <guid>http://example.org/posts/debugging_dash_apps/</guid>
+      <guid>http://localhost:1313/blog/posts/debugging_dash_apps/</guid>
       <description>&lt;p&gt;Debugging &lt;a href=&#34;https://dash.plotly.com/&#34;&gt;Dash apps&lt;/a&gt; can be fun and painful at the same time.&lt;/p&gt;
 &lt;p&gt;For debugging, I often litter the code with these to have the more powerful IPython available for debugging.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; embed; embed()
@@ -89,9 +89,9 @@
     </item>
     <item>
       <title>Just finished reading: &#39;Why we sleep&#39;</title>
-      <link>http://example.org/posts/book_why_we_sleep/</link>
+      <link>http://localhost:1313/blog/posts/book_why_we_sleep/</link>
       <pubDate>Thu, 27 Apr 2023 17:18:37 +0200</pubDate>
-      <guid>http://example.org/posts/book_why_we_sleep/</guid>
+      <guid>http://localhost:1313/blog/posts/book_why_we_sleep/</guid>
       <description>&lt;p&gt;&amp;ldquo;Why We Sleep&amp;rdquo; by &lt;a href=&#34;https://www.sleepdiplomat.com/author&#34;&gt;Matthew Walker Ph.D.&lt;/a&gt; is a great read to bring you up to speed about what we scientifically know about sleep today. He describes the results and implications of many years of research, and doesn&amp;rsquo;t shy away from describing how the research experiments were done and designed. Fascinating read.&lt;/p&gt;
 &lt;p&gt;Quick messages to take away:&lt;/p&gt;
 &lt;ul&gt;
@@ -107,31 +107,31 @@
     </item>
     <item>
       <title>python-docx is a great library for writing MS Word files</title>
-      <link>http://example.org/posts/python_docx_is_great/</link>
+      <link>http://localhost:1313/blog/posts/python_docx_is_great/</link>
       <pubDate>Thu, 27 Apr 2023 13:25:41 +0200</pubDate>
-      <guid>http://example.org/posts/python_docx_is_great/</guid>
+      <guid>http://localhost:1313/blog/posts/python_docx_is_great/</guid>
       <description>&lt;p&gt;Today, I used the great library &lt;a href=&#34;https://python-docx.readthedocs.io/en/latest/user/install.html&#34;&gt;python-docx&lt;/a&gt; to create a rather complex report in MS Word. Why Word? It was the quickest way to get my results into the hands of colleagues from the business. I was using a not so large LLM locally on my GPU server to generate a report for decision-making around some or our relevant topics. In the mix went the remarkable &lt;a href=&#34;https://pypi.org/project/transformers/&#34;&gt;transfomrers&lt;/a&gt; library as well as &lt;a href=&#34;https://maartengr.github.io/BERTopic/index.html&#34;&gt;BERTopic&lt;/a&gt; for clustering. The library is easy to use for getting things done fast. Documentation is a bit lacking, and ChatGPT gets many questions about python-docx wrong. What is possible, but hard, to do is creating links within the document or creating a table of contents.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nvidia publishes NeMo guardrails to use LLMs more safely</title>
-      <link>http://example.org/posts/nvidia_nemo_guardrails/</link>
+      <link>http://localhost:1313/blog/posts/nvidia_nemo_guardrails/</link>
       <pubDate>Wed, 26 Apr 2023 08:22:09 +0200</pubDate>
-      <guid>http://example.org/posts/nvidia_nemo_guardrails/</guid>
+      <guid>http://localhost:1313/blog/posts/nvidia_nemo_guardrails/</guid>
       <description>&lt;p&gt;Using LLMs safely keeps me up at night, especially when working for a pharma company where our decisions can impact patients. This area still needs tremendous amounts of research, but seeing things like &lt;a href=&#34;https://github.com/NVIDIA/NeMo-Guardrails&#34;&gt;NeMo Guardrails&lt;/a&gt; looks promising. The guardrails are &lt;em&gt;programmed&lt;/em&gt; in the language of LLMs, plain English, which in principle allows evolving these guardrails fast. How to manage these guardrails to not become an entangled mess is left to be seen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My letter to Berlin members of the european parliament regarding the CRA law proposal</title>
-      <link>http://example.org/posts/cra_law_berlin_mep/</link>
+      <link>http://localhost:1313/blog/posts/cra_law_berlin_mep/</link>
       <pubDate>Mon, 24 Apr 2023 18:51:08 +0200</pubDate>
-      <guid>http://example.org/posts/cra_law_berlin_mep/</guid>
+      <guid>http://localhost:1313/blog/posts/cra_law_berlin_mep/</guid>
       <description>&lt;p&gt;Listening to &lt;a href=&#34;https://pythonbytes.fm/episodes/show/332/a-python-a-slurpee-and-some-chaos&#34;&gt;this&lt;/a&gt; episode of the wonderful Python Bytes really shocked me with covering this blog post of the python software foundation: &lt;a href=&#34;https://pyfound.blogspot.com/2023/04/the-eus-proposed-cra-law-may-have.html&#34;&gt;https://pyfound.blogspot.com/2023/04/the-eus-proposed-cra-law-may-have.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I totally missed it and hope it is not too late that members of the European Parliament can resolve these issues with this law. If this becomes law, the future of free and open software in Europe looks bleak, and we don&amp;rsquo;t want that. This is my letter to members of the European Parliament, taking on responsibility for Berlin (in German):&lt;/p&gt;</description>
     </item>
     <item>
       <title>LLM Predictions</title>
-      <link>http://example.org/posts/llm-prediction/</link>
+      <link>http://localhost:1313/blog/posts/llm-prediction/</link>
       <pubDate>Sun, 23 Apr 2023 13:29:37 +0200</pubDate>
-      <guid>http://example.org/posts/llm-prediction/</guid>
+      <guid>http://localhost:1313/blog/posts/llm-prediction/</guid>
       <description>&lt;p&gt;I haven&amp;rsquo;t seen a field (NLP) change this rapid in such a short period of time during my professional career. This is fascinating times indeed. These are my current predictions and mental models:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;LLMs hare here to stay: They are useful, useful things will find their nice and stick around. Their prevalence and if one notices them as such is much harder to predict.&lt;/li&gt;
@@ -148,9 +148,9 @@
     </item>
     <item>
       <title>Generating a table of content for mardown files</title>
-      <link>http://example.org/posts/toc-markdown/</link>
+      <link>http://localhost:1313/blog/posts/toc-markdown/</link>
       <pubDate>Sat, 22 Apr 2023 13:22:39 +0200</pubDate>
-      <guid>http://example.org/posts/toc-markdown/</guid>
+      <guid>http://localhost:1313/blog/posts/toc-markdown/</guid>
       <description>&lt;p&gt;Markdown documents for technical documentation can quickly get out of control and lose their value if one just can&amp;rsquo;t find relevant content. Having a table of content helps to navigate and parse files, even if they become longer and more complex. Markdown itself doesn&amp;rsquo;t create auto-generating and auto-updating table of contents and doing this manual will just not work with real people and real live scenarios where time is always in short supply, especially then documentation is an afterthought to getting features shipped. Automating this is a great way to save time and keep these documents useful.&lt;/p&gt;</description>
     </item>
   </channel>

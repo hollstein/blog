@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prediction on blog</title>
-    <link>http://example.org/tags/prediction/</link>
+    <link>http://localhost:1313/blog/tags/prediction/</link>
     <description>Recent content in Prediction on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Apr 2023 13:29:37 +0200</lastBuildDate>
-    <atom:link href="http://example.org/tags/prediction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/prediction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLM Predictions</title>
-      <link>http://example.org/posts/llm-prediction/</link>
+      <link>http://localhost:1313/blog/posts/llm-prediction/</link>
       <pubDate>Sun, 23 Apr 2023 13:29:37 +0200</pubDate>
-      <guid>http://example.org/posts/llm-prediction/</guid>
+      <guid>http://localhost:1313/blog/posts/llm-prediction/</guid>
       <description>&lt;p&gt;I haven&amp;rsquo;t seen a field (NLP) change this rapid in such a short period of time during my professional career. This is fascinating times indeed. These are my current predictions and mental models:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;LLMs hare here to stay: They are useful, useful things will find their nice and stick around. Their prevalence and if one notices them as such is much harder to predict.&lt;/li&gt;

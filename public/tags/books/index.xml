@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Books on blog</title>
-    <link>http://example.org/tags/books/</link>
+    <link>http://localhost:1313/blog/tags/books/</link>
     <description>Recent content in Books on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Apr 2023 17:18:37 +0200</lastBuildDate>
-    <atom:link href="http://example.org/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Just finished reading: &#39;Why we sleep&#39;</title>
-      <link>http://example.org/posts/book_why_we_sleep/</link>
+      <link>http://localhost:1313/blog/posts/book_why_we_sleep/</link>
       <pubDate>Thu, 27 Apr 2023 17:18:37 +0200</pubDate>
-      <guid>http://example.org/posts/book_why_we_sleep/</guid>
+      <guid>http://localhost:1313/blog/posts/book_why_we_sleep/</guid>
       <description>&lt;p&gt;&amp;ldquo;Why We Sleep&amp;rdquo; by &lt;a href=&#34;https://www.sleepdiplomat.com/author&#34;&gt;Matthew Walker Ph.D.&lt;/a&gt; is a great read to bring you up to speed about what we scientifically know about sleep today. He describes the results and implications of many years of research, and doesn&amp;rsquo;t shy away from describing how the research experiments were done and designed. Fascinating read.&lt;/p&gt;
 &lt;p&gt;Quick messages to take away:&lt;/p&gt;
 &lt;ul&gt;
