@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on blog</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on blog</description>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 May 2023 18:54:05 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing disk space on Mac</title>
+      <link>http://localhost:1313/posts/managing_disk_space_on_mac/</link>
+      <pubDate>Mon, 08 May 2023 18:54:05 +0200</pubDate>
+      <guid>http://localhost:1313/posts/managing_disk_space_on_mac/</guid>
+      <description>&lt;p&gt;Developing date science use cases on a Mac with 256GB disk space is fun compared to doing this on Windows, but the small disk of my Mac can make things challenging. In case the disk is full again:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;docker system prune --all&lt;/code&gt;, removes all thing&amp;rsquo;s docker, also everything cached, so initial build times are a price to pay&lt;/li&gt;
+&lt;li&gt;If I have no clue why this disk is full: &lt;code&gt;find . -maxdepth 1 -type d -mindepth 1 -exec du -hs {} \;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pip cache purge&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;conda clean --all&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Removing unused software also helps&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>SSL issues when baking LLMs into docker images</title>
+      <link>http://localhost:1313/posts/ssl_issues_docker/</link>
+      <pubDate>Mon, 08 May 2023 18:40:20 +0200</pubDate>
+      <guid>http://localhost:1313/posts/ssl_issues_docker/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m building some docker images to deploy a data science use-case to AWS as ECS task. One trick to reduce startup-time and external dependencies is to include all needed models into the image. This increases the image size but decreases the time spent getting the models from an external dependency and is safeguarding the service for external resources becoming unavailable. In this project, I can&amp;rsquo;t rely on some other internal way of fetching the models.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
