@@ -1,5 +1,5 @@
 theme: "PaperMod"
-baseURL: "http://example.org/"
+baseURL: "https://hollstein.github.io/blog/"
 languageCode: "en-us"
 title: "blog"
 canonifyURLs: true

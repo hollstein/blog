@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ssl on blog</title>
-    <link>http://localhost:1313/tags/ssl/</link>
+    <link>http://example.org/tags/ssl/</link>
     <description>Recent content in Ssl on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 03 Jun 2023 13:52:10 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://example.org/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSL errors and company proxies</title>
-      <link>http://localhost:1313/posts/ssl_errors_and_company_proxies/</link>
+      <link>http://example.org/posts/ssl_errors_and_company_proxies/</link>
       <pubDate>Sat, 03 Jun 2023 13:52:10 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ssl_errors_and_company_proxies/</guid>
+      <guid>http://example.org/posts/ssl_errors_and_company_proxies/</guid>
       <description>&lt;p&gt;Developing AI / ML application behind company IT infrastructure can be challenging. When developing prototypes or quickly checking the latest models from the Huggingface hub, I&amp;rsquo;m often struck by SSL errors. Often, the only way out for the moment it to disable SSL locally for specific actions, also: Don&amp;rsquo;t do this outside of quick experiments or in production systems.&lt;/p&gt;
 &lt;p&gt;An excellent resource for dealing with these errors  is this Stack Overflow thread: &lt;a href=&#34;https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-python-requests&#34;&gt;https://stackoverflow.com/questions/15445981/how-do-i-disable-the-security-certificate-check-in-python-requests&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>SSL issues when baking LLMs into docker images</title>
-      <link>http://localhost:1313/posts/ssl_issues_docker/</link>
+      <link>http://example.org/posts/ssl_issues_docker/</link>
       <pubDate>Mon, 08 May 2023 18:40:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ssl_issues_docker/</guid>
+      <guid>http://example.org/posts/ssl_issues_docker/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m building some docker images to deploy a data science use-case to AWS as ECS task. One trick to reduce startup-time and external dependencies is to include all needed models into the image. This increases the image size but decreases the time spent getting the models from an external dependency and is safeguarding the service for external resources becoming unavailable. In this project, I can&amp;rsquo;t rely on some other internal way of fetching the models.&lt;/p&gt;</description>
     </item>
   </channel>

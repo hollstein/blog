@@ -2,100 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://example.org/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/llm/</loc>
+    <loc>http://example.org/tags/llm/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/optimization/</loc>
+    <loc>http://example.org/tags/optimization/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/black_box_optimization_from_comparisons/</loc>
+    <loc>http://example.org/posts/black_box_optimization_from_comparisons/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://example.org/posts/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>http://example.org/tags/python/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://example.org/tags/</loc>
     <lastmod>2023-06-14T10:27:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssl/</loc>
+    <loc>http://example.org/tags/ssl/</loc>
     <lastmod>2023-06-03T13:52:10+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ssl_errors_and_company_proxies/</loc>
+    <loc>http://example.org/posts/ssl_errors_and_company_proxies/</loc>
     <lastmod>2023-06-03T13:52:10+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ocr/</loc>
+    <loc>http://example.org/tags/ocr/</loc>
     <lastmod>2023-05-28T15:08:56+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/open-source/</loc>
+    <loc>http://example.org/tags/open-source/</loc>
     <lastmod>2023-05-28T15:08:56+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/which_ocr_to_use/</loc>
+    <loc>http://example.org/posts/which_ocr_to_use/</loc>
     <lastmod>2023-05-28T15:08:56+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/extraxt_all_text_from_pptx_files/</loc>
+    <loc>http://example.org/posts/extraxt_all_text_from_pptx_files/</loc>
     <lastmod>2023-05-23T10:59:29+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>http://example.org/tags/docker/</loc>
     <lastmod>2023-05-08T18:54:05+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mac/</loc>
+    <loc>http://example.org/tags/mac/</loc>
     <lastmod>2023-05-08T18:54:05+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/managing_disk_space_on_mac/</loc>
+    <loc>http://example.org/posts/managing_disk_space_on_mac/</loc>
     <lastmod>2023-05-08T18:54:05+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ssl_issues_docker/</loc>
+    <loc>http://example.org/posts/ssl_issues_docker/</loc>
     <lastmod>2023-05-08T18:40:20+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/on_prompting/</loc>
+    <loc>http://example.org/posts/on_prompting/</loc>
     <lastmod>2023-04-29T16:56:41+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dash/</loc>
+    <loc>http://example.org/tags/dash/</loc>
     <lastmod>2023-04-28T11:47:28+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/debugging_dash_apps/</loc>
+    <loc>http://example.org/posts/debugging_dash_apps/</loc>
     <lastmod>2023-04-28T11:47:28+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/books/</loc>
+    <loc>http://example.org/tags/books/</loc>
     <lastmod>2023-04-27T17:18:37+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/book_why_we_sleep/</loc>
+    <loc>http://example.org/posts/book_why_we_sleep/</loc>
     <lastmod>2023-04-27T17:18:37+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/python_docx_is_great/</loc>
+    <loc>http://example.org/posts/python_docx_is_great/</loc>
     <lastmod>2023-04-27T13:25:41+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/nvidia_nemo_guardrails/</loc>
+    <loc>http://example.org/posts/nvidia_nemo_guardrails/</loc>
     <lastmod>2023-04-26T08:22:09+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cra_law_berlin_mep/</loc>
+    <loc>http://example.org/posts/cra_law_berlin_mep/</loc>
     <lastmod>2023-04-24T18:51:08+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/llm-prediction/</loc>
+    <loc>http://example.org/posts/llm-prediction/</loc>
     <lastmod>2023-04-23T13:29:37+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/prediction/</loc>
+    <loc>http://example.org/tags/prediction/</loc>
     <lastmod>2023-04-23T13:29:37+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/toc-markdown/</loc>
+    <loc>http://example.org/posts/toc-markdown/</loc>
     <lastmod>2023-04-22T13:22:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://example.org/tags/markdown/</loc>
     <lastmod>2023-04-22T13:22:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tools/</loc>
+    <loc>http://example.org/tags/tools/</loc>
     <lastmod>2023-04-22T13:22:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://example.org/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://example.org/series/</loc>
   </url>
 </urlset>

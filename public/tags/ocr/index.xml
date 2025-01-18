@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ocr on blog</title>
-    <link>http://localhost:1313/tags/ocr/</link>
+    <link>http://example.org/tags/ocr/</link>
     <description>Recent content in Ocr on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 May 2023 15:08:56 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://example.org/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Which OCR to use today? (extracting text from images in power point)</title>
-      <link>http://localhost:1313/posts/which_ocr_to_use/</link>
+      <link>http://example.org/posts/which_ocr_to_use/</link>
       <pubDate>Sun, 28 May 2023 15:08:56 +0200</pubDate>
-      <guid>http://localhost:1313/posts/which_ocr_to_use/</guid>
+      <guid>http://example.org/posts/which_ocr_to_use/</guid>
       <description>&lt;p&gt;Recently I added these comments to my prototype text extraction code from documents:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pytesseract  &lt;span style=&#34;color:#75715e&#34;&gt;# this works really bad&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pytesseract&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pytesseract&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;tesseract_cmd &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/usr/bin/tesseract&amp;#34;&lt;/span&gt;

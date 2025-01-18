@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dash on blog</title>
-    <link>http://localhost:1313/tags/dash/</link>
+    <link>http://example.org/tags/dash/</link>
     <description>Recent content in Dash on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 Apr 2023 11:47:28 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://example.org/tags/dash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debugging dash apps</title>
-      <link>http://localhost:1313/posts/debugging_dash_apps/</link>
+      <link>http://example.org/posts/debugging_dash_apps/</link>
       <pubDate>Fri, 28 Apr 2023 11:47:28 +0200</pubDate>
-      <guid>http://localhost:1313/posts/debugging_dash_apps/</guid>
+      <guid>http://example.org/posts/debugging_dash_apps/</guid>
       <description>&lt;p&gt;Debugging &lt;a href=&#34;https://dash.plotly.com/&#34;&gt;Dash apps&lt;/a&gt; can be fun and painful at the same time.&lt;/p&gt;
 &lt;p&gt;For debugging, I often litter the code with these to have the more powerful IPython available for debugging.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; embed; embed()

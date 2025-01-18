@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Markdown on blog</title>
-    <link>http://localhost:1313/tags/markdown/</link>
+    <link>http://example.org/tags/markdown/</link>
     <description>Recent content in Markdown on blog</description>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 22 Apr 2023 13:22:39 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://example.org/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating a table of content for mardown files</title>
-      <link>http://localhost:1313/posts/toc-markdown/</link>
+      <link>http://example.org/posts/toc-markdown/</link>
       <pubDate>Sat, 22 Apr 2023 13:22:39 +0200</pubDate>
-      <guid>http://localhost:1313/posts/toc-markdown/</guid>
+      <guid>http://example.org/posts/toc-markdown/</guid>
       <description>&lt;p&gt;Markdown documents for technical documentation can quickly get out of control and lose their value if one just can&amp;rsquo;t find relevant content. Having a table of content helps to navigate and parse files, even if they become longer and more complex. Markdown itself doesn&amp;rsquo;t create auto-generating and auto-updating table of contents and doing this manual will just not work with real people and real live scenarios where time is always in short supply, especially then documentation is an afterthought to getting features shipped. Automating this is a great way to save time and keep these documents useful.&lt;/p&gt;</description>
     </item>
   </channel>
